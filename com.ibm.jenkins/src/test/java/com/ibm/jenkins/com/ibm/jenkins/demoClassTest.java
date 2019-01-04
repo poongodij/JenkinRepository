@@ -20,5 +20,6 @@ public class demoClassTest {
 			String expected = "Bank Application";
 			String actual = driver.getTitle();
 			Assert.assertEquals(expected, actual);
+			System.out.println("Both are equal");
 	}
 }
